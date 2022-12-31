@@ -1,7 +1,7 @@
 # BigBrain
 Web-based quiz application
 
-### Features
+## Features
 ### Admin
 - login screen
 - register screen
