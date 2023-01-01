@@ -19,10 +19,10 @@ Web-based quiz application
 - lobby screen: a waiting screen before the quiz begins
 
 ## Setup
-Navigate to the frontend folder and run npm install to install all of the dependencies necessary to run the ReactJS app. Then run npm start to start the ReactJS app.
+Navigate to the `frontend` folder and run `yarn install` to install all of the dependencies necessary to run the ReactJS app. Then run `yarn start` to start the ReactJS app.
 
-Run npm install in backend directory once. To run the backend server, simply run npm start in the backend directory.
+Run `yarn install` in `backend` directory once. To run the backend server, simply run `yarn start` in the `backend` directory.
 
-The backend is persistent in terms of data storage. That means the data will remain even after your express server process stops running. If you want to reset the data in the backend to the original starting state, you can run yarn reset in the backend directory. If you want to make a copy of the backend data (e.g. for a backup) then simply copy database.json. If you want to start with an empty database, you can run yarn clear in the backend directory.
+The backend is persistent in terms of data storage. That means the data will remain even after your express server process stops running. If you want to reset the data in the backend to the original starting state, you can run `yarn reset` in the backend directory. If you want to make a copy of the backend data (e.g. for a backup) then simply copy `database.json`. If you want to start with an empty database, you can run `yarn clear` in the backend directory.
 
-The port that the backend runs on (and that the frontend can use) is specified in frontend/src/config.js. You can change the port in this file.
+The port that the backend runs on (and that the frontend can use) is specified in `frontend/src/config.js`. You can change the port in this file.
