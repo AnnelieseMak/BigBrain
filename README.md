@@ -1,5 +1,5 @@
 # BigBrain
-Web-based quiz application
+Web-based quiz application using ReactJS
 
 ## Features
 ### Admin
